@@ -1,0 +1,379 @@
+body{
+	margin:0;
+    font-size:14px;
+	font-family:arial;
+}
+#createAccount,#createAccountForm{
+	margin-top:15px;
+	color:#fff;
+    padding:10px;
+    border-radius:10px;	
+	border: 1px solid white;
+	background-color:rgba(0,0,0,.5);
+	font-size:140%;
+	width:270px;
+	box-shadow:0px 0px 15px #fff;
+}
+#createAccountPrompt{
+	margin:40px 140px 0px 0px;
+}
+#createAccount:hover{
+    background-color:black;
+}
+#userPrompt{
+	background-color:#fff;
+	margin-top:50px;
+	padding:70px 20px;
+	box-shadow:0px 0px 15px #fff;
+}
+input{
+	padding:8px;
+	background-color:#e3e5ea;
+	margin:7px;
+	border:2px solid #ababac;
+	width:200px;
+}
+
+.btn{
+	padding:10px;
+	background-color:green;
+	border:#fff;
+	margin-top:20px;
+	font-size:90%;
+	width:100px;
+	color:#fff;
+	text-decoration:none;
+}
+.btn:hover,.goBtn:hover{
+    background-color:#000000;
+    color:#fff;	
+}
+.sidebar button{
+	padding-top:15px;
+	padding-bottom:40px;
+	font-size:150%;
+	margin-top:10px;
+	width:200px;
+	height:25px;	
+	background-color:#fff;
+	
+}
+ul{
+	margin:0px;
+    border:1px solid black;
+    padding-top:30px; 
+	font-size:140%;
+	height:25px;
+	padding:15px;
+	padding-left:500px;
+}
+li{
+	margin-left:4px;
+    padding:3px 10px;
+    color:#ababab;
+    display:inline;	
+}
+li:hover{
+    background-color:black;
+	color:#fff;
+	cursor:pointer;
+}
+ul .active{
+	color:black;
+}
+ul .active:hover{
+	color:#fff;
+}
+img{
+    margin-right:4px;	
+}
+.sidebar{
+    display:inline;
+}
+.loginBody{
+	text-align:center;
+	color:#000000;
+	margin:0;
+	padding:0;
+	text-shadow:1px 1px #fff;
+	
+}
+.topStyle{
+	text-align:center;
+	margin:0; 
+	color:#fff;
+	border:1px solid black;
+	height:80px;
+	line-height:40px;
+    background-color:#000000;
+	box-shadow:0px 0px 15px #fff;
+}
+.goBtn{
+	background-color:green;
+	font-weight:bolder;
+	font-size:120%;
+    height:55px;
+    width:45px;
+	border-radius:35px;
+	margin-top:30px;
+	display:inline;
+	float:left;
+	min-width:6.5em;
+	color:white;
+	cursor:pointer;
+}
+#goBtn{
+	margin-left:30px;
+}
+.slideshow-container{
+	background-color:black;
+	width:800px;
+	height:500px;
+	overflow:hidden;
+	
+}
+.slideshow-container figure img{
+	width:793px;
+	height:500px;
+}
+.slideshow-container figure{
+	position:relative;
+	width:500%;
+	margin:0px;
+	left:0px;
+	animation:webzone 30s infinite linear;
+}
+@keyframes webzone{
+	0%{left:0%;}
+	10%{left:0%;}
+	11%{left:-100%;}
+	25%{left:-100%;}
+	26%{left:-200%;}
+	48%{left:-200%;}
+	50%{left:-300%;}
+	68%{left:-300%;}
+	79%{left:-400%;}
+	88%{left:-400%;}
+	99%{left:-400%;}
+	
+}
+footer{
+	background-color:#040135;
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+	line-height:3px;
+	padding:10px;
+}
+footer img{
+    border:white 1px solid;
+    border-radius:8px;
+}	
+.container2{
+	float:right;
+	text-align:center;
+	background-color:orange;
+	color:white;
+	padding:40px;
+}
+.container1{
+	position:absolute;
+	top:150px;
+	margin-left:90px;
+	padding:50px 30px;
+	background-color:#fff;
+	font-style:verdana;
+	text-align:center;
+	font-size:130%;
+}
+.dashboard ol{
+	margin-top:40px;
+	margin-bottom:30px;
+	font:15px geneva;
+}
+.dashboard ol li a{
+	padding:15px;
+	border-radius:7px;
+	font-size:20px;
+	text-decoration:none;
+    border:1px solid orange;
+	box-shadow:3px 3px 3px orange;
+	width:20px;
+	height:90px;
+	padding-top:80px;
+}
+.dashboard table{
+	width:70px;margin-left:20px;
+}
+.dashboard table th{
+	padding:50px;
+}
+.dashboard table a{
+	text-decoration:none;
+}
+.dashboard table a:hover{
+	background-color:#ababab;
+	padding:5px;
+	border-radius:8px;
+	color:#fff
+}
+.container{
+	font-size:140%;
+}
+.container h2{
+	text-align:center;
+}
+.container table{
+	box-shadow:0px 0px 6px #040165; 
+}	
+.container table th{
+	background-color:#040165;
+	padding:10px 10px;
+	color:#fff;
+	border:1px solid white;
+	box-shadow:0px 0px 6px #040165; 
+}
+.container{
+	margin-left:40px;
+}
+.container table td{
+	padding:10px 10px;
+	text-align:center;
+	box-shadow:0px 0px 6px #040165;
+}
+.container .formInputItem{
+	margin-left:0px
+}
+.gBtn{
+	font-weight:bold;
+	font-size:80%;
+	border-radius:9px;
+	width:150px;
+	background-color:green;
+	color:#fff
+}
+.gBtn:hover{
+	background-color:#000000;
+	color:#fff;
+}
+
+.asidebar ul{
+	padding-bottom:30px;
+	padding-left:1px;
+	
+}
+.asidebar li{
+	font-size:92%;
+	padding-right:1px;
+}
+.asidebar li:hover{
+	background:black;
+}
+.addPrdt th{
+	background-color:white;
+	color:#000000;
+}
+label {
+  display: inline-block;
+  width: 140px;
+}
+/*
+.sidebar button:hover{
+    background-color:#000000;
+    color:#fff;	
+}
+.container form{
+	line-height: 2em;
+	display: block;
+}
+.container table{
+	padding:5px;
+	font-style:normal;
+}
+.container table td{
+	text-align:center;
+	vertical-align:top;
+}
+.container table tr:nth-child(odd){
+	background-color: #a3a5a8;
+}
+.container table tr:nth-child(even){
+	background-color: #e0e3e5;
+}
+.container table th{
+	text-align:center;
+	min-width:13em;
+	color:#fcfcfc;
+	background-color: #303030;
+}
+.container .tableLarge th{
+	min-width: 7em;
+}
+.container fieldset{
+	min-height: 200px;
+	min-width:30em;
+	font-size: 20px;
+	font-style:italic;
+	line-height: 1.7em;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+}
+.container fieldset legend{
+	font-size: 25px;
+	color:brown;
+	font-style:normal;
+}
+.container fieldset p{
+	white-space: pre-wrap;
+}
+.sidebar button:active{
+	background-color: #303030;
+}
+
+#logoutButton{
+	top:30px;
+	right:5%;
+	position:absolute;
+}
+.userNameDisplay{
+	top:30px;
+	right:5%;
+	position:absolute;
+	color:white;
+	font-style:italic;
+	font-size: 30px;
+}
+.btn:active{
+	background-color: #e3e5ea;
+}
+body{
+	top:0;
+	left:0;
+	background-color: #fcfcfc;
+	font-family:sans-serif;
+	line-height: 1.5em;
+}
+.loginBody{
+	top:0;
+	left:0;
+	font-family:sans-serif;
+	line-height: 1.5em;
+	background-color: #a6abb2;
+}
+*/
+textarea{
+	resize:none;
+	vertical-align: top;
+	font-family: sans-serif;
+	padding:5px;
+	width:250px;
+	border:0px;
+	border-radius: 2px;
+	background-color:#e3e5ea;
+	display: inline-block;
+	height:190px;
+	margin-top:10px;
+	margin-right: 5px;
+
+}
